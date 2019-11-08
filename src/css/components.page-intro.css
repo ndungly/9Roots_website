@@ -1,0 +1,14 @@
+.c-page-intro {
+  width: 100%;
+  max-width: 750px;
+  margin: 50px auto;
+  text-align: center;
+
+  &__title {
+
+  }
+
+  &__body {
+
+  }
+}

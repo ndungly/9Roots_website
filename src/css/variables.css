@@ -1,0 +1,20 @@
+:root {
+  --9roots-blue: #02738D;
+  --9roots-orange: #FA8303;
+  --9roots-white: #fff;
+
+  --9roots-accent-red: #D6271E;
+  --9roots-accent-green: #6AAC90;
+  --9roots-accent-yellow: #E6B82A;
+  --9roots-accent-purple: #85549A;
+
+  --9roots-medium-blue: #2F9FB9;
+  --9roots-light-blue: #9BD2DE;
+  --9roots-lighter-blue: #D9EFF4;
+
+  --body-color: #003643;
+  --body-font: filson-pro, sans-serif;
+  --body-weight: 400;
+  --heading-font: filson-pro, sans-serif;
+  --heading-weight: 700;
+}

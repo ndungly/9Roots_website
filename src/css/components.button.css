@@ -1,0 +1,13 @@
+.c-btn {
+  width: 100px;
+  height: 60px;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: var(--9roots-orange);
+  transition: background-color 500ms ease;
+  color: white;
+
+  &:hover {
+    font-weight: 700;
+  }
+}

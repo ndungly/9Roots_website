@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--body-color);
+  font-family: var(--body-font);
+  font-weight: var(--body-weight);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-weight);
+}
+
+a {
+  text-decoration: none;
+}
