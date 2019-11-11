@@ -16,8 +16,12 @@
   &__icon {
     margin: 15px;
 
-    &:first-child {
-      margin-left: 0;
+    img {
+      width: 28px;
+
+      path {
+        fill: #fff;
+      }
     }
   }
 }

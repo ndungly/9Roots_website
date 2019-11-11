@@ -2,7 +2,7 @@
   "name": "9Roots",
   "version": "1.0.0",
   "scripts": {
-    "serve": "live-server public",
+    "serve": "live-server",
     "build": "webpack --watch",
     "css": "postcss src/css/index.css -o public/bundle.css --watch"
   },

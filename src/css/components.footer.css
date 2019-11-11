@@ -1,7 +1,13 @@
 .c-footer {
-  height: 200px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
+  margin-top: auto;
   background-color: rgba(#02738D, 0.7);
   text-align: center;
   color: #fff;
+
+  p {
+  }
 }
