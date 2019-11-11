@@ -1,0 +1,42 @@
+.s-about {
+  margin: 0;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+  }
+
+  .img-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .text-container {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 850px;
+    margin: 0 auto 50px auto;
+  }
+
+  .s-about__title {
+    text-align: center;
+  }
+
+  .s-about__body {
+    font-size: rem(18px);
+    line-height: 1.8;
+
+    @media (min-width: 700px) {
+      font-size: rem(20px);
+    }
+  }
+}
