@@ -1,7 +1,7 @@
 .s-home {
   width: 100%;
   min-height: 100%;
-  background-color: var(--9roots-lighter-blue);
+  background-color: var(--9roots-white);
   margin: 0;
 
   main {
@@ -83,3 +83,9 @@
   }
 }
 
+.s-home__pattern {
+  height: 400px;
+  background-color: var(--9roots-blue);
+  background-image: url(./public/assets/img/pattern.svg);
+  background-repeat: repeat;
+}
