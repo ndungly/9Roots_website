@@ -1,0 +1,82 @@
+.s-testimonial {
+  padding-top: 180px;
+  margin: 0;
+
+  .container {
+    width: 100%;
+    max-width: 950px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: rem(16px);
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: rem(16px);
+    line-height: 1.8;
+    margin: 30px 0;
+
+    @media (min-width: 850px) {
+      font-size: rem(18px);
+    }
+  }
+
+  a {
+    color: var(--9roots-orange);
+    font-weight: bold;
+  }
+
+  main {
+    margin-bottom: 70px;
+  }
+}
+
+.img-container {
+  width: 100%;
+
+  @media (min-width: 1300px) {
+    display: float;
+    max-width: 600px;
+    margin: 50px;
+  }
+}
+
+.img-container--left {
+  @media (min-width: 1300px) {
+    float: left;
+    margin-left: -30%;
+  }
+}
+
+.img-container--right {
+  @media (min-width: 1300px) {
+    float: right;
+    margin-right: -30%;
+  }
+}
+
+.img {
+  width: 100%;
+}
+
+.portrait-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.portrait {
+  width: 100%;
+}
