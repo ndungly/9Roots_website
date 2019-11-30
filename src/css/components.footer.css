@@ -1,6 +1,7 @@
 .c-footer {
   position: relative;
   height: 190px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   padding: 20px;

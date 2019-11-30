@@ -8,6 +8,7 @@
 @import './components.page-intro.css';
 @import './components.people.css';
 @import './components.button.css';
+@import './components.section.css';
 
 /* scope level */
 
@@ -17,3 +18,4 @@
 @import './scopes.tribe.css';
 @import './scopes.about.css';
 @import './scopes.testimonial.css';
+@import './scopes.producten.css';

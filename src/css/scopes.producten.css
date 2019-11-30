@@ -1,0 +1,34 @@
+.s-producten {
+  margin: 0;
+
+  main {
+    padding: 150px 20px 20px 20px;
+
+    @media (min-width: 1000px) {
+      padding: 150px 50px 50px 50px;
+    }
+  }
+
+  &__img {
+    display: block;
+    padding-right: 50px;
+    max-width: 500px;
+    margin: 80px auto 40px auto;
+  }
+
+  .c-section {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .img-container {
+      max-width: 250px;
+      margin: 20px;
+      flex: 1 1 150px;
+    }
+
+    .section-text {
+      flex: 1 1 550px;
+    }
+  }
+}

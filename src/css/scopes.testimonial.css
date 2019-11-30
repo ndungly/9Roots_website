@@ -46,7 +46,7 @@
 
   @media (min-width: 1300px) {
     display: float;
-    max-width: 600px;
+    max-width: 500px;
     margin: 50px;
   }
 }
@@ -54,14 +54,14 @@
 .img-container--left {
   @media (min-width: 1300px) {
     float: left;
-    margin-left: -30%;
+    margin-left: -20%;
   }
 }
 
 .img-container--right {
   @media (min-width: 1300px) {
     float: right;
-    margin-right: -30%;
+    margin-right: -20%;
   }
 }
 
