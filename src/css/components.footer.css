@@ -12,15 +12,4 @@
 
   p {
   }
-
-  .bg-pattern {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    /* background-image: url(../../public/assets/img/pattern.svg); */
-    /* background-size: 800px; */
-    opacity: 0.2;
-  }
 }

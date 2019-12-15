@@ -26,7 +26,8 @@
   align-items: center;
   padding: 30px;
   margin: 15px;
-  border: 1px solid #9BD2DE;
+  border: 1px solid var(--9roots-light-blue);
+  background: #fff;
 }
 
 .c-people__img-container {

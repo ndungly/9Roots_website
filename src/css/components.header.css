@@ -13,10 +13,15 @@
   transition-duration: 500ms;
   transition-timing-function: ease;
   z-index: 1000;
+  background: rgba(#fff, 1);
 
   img {
     width: 250px;
     height: auto;
+
+    @media (max-width: 320px) {
+      width: 200px;
+    }
   }
 
   @media screen and (min-width: 915px) {

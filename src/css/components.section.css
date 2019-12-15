@@ -53,6 +53,11 @@
     @media (min-width: 700px) {
       font-size: rem(18px);
     }
+
+    a {
+      font-weight: bold;
+      color: var(--9roots-orange);
+    }
   }
 
   &:nth-child(even) {
