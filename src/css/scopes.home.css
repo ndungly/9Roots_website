@@ -4,7 +4,7 @@
   margin: 0;
 
   main {
-    padding: 200px 0 0 0;
+    padding: 140px 0 0 0;
 
     @media (min-width: 700px) {
       padding: 200px 20px 0 20px;
