@@ -36,7 +36,7 @@ Voor het aanpassen van de content zijn alleen de onderstaande bestanden/folders 
 
 
 ## 2. De website publiceren
-Voor het publiceren van de website heb je alleen `index.html` nodig en als wat in de `public` map zit.
+Voor het publiceren van de website heb je alleen `index.html` nodig en alles wat in de `public` map zit.
 
 
 
@@ -53,7 +53,15 @@ Voorbeeld:
 
 - De tekst achter `alt` is een beschrijvende tekst van het plaatje. Dit is bedoeld voor slechtzienden die het internet gebruiken. Zij gebruiken een screen reader die in het geval van plaatjes deze `alt` teksten opleest.
 
-- Vaak staan de afbeeldingen in een 'container' (zie hieronder). Dit is zodat ze altijd dezelfde breedte/hoogte verhouding hebben en de layout niet stuk kan gaan doordat er bijvoorbeeld een staand i.p.v. een liggend plaatje wordt toegevoegd. Dit betekent wel dat alles wat niet binnen deze container past wordt afgesneden. Probeer in dit geval de plaatjes eerst in photoshop in de juiste verhouding te zetten voordat je ze op de website gebruikt.
+- Vaak staan de afbeeldingen in een 'container' (zie hieronder). Dit is zodat we ze altijd dezelfde breedte/hoogte verhouding kunnen meegeven en de layout niet stuk kan gaan doordat er bijvoorbeeld een staand i.p.v. een liggend plaatje wordt toegevoegd. Op dit moment hebben de containers nog geen vaste afmetingen mee gekregen, maar dit zou in de toekomst nog kunnen indien wenselijk.
+
+```
+<div class="img-container">
+  <img src="https://source.unsplash.com/random/500x350" alt="image desription">
+</div>
+```
+
+Mochten de plaatjes altijd een vaste hoogte/breedte verhouding krijgen dan betekent dit wel dat alles wat niet binnen deze container past wordt afgesneden. Probeer in dit geval de plaatjes eerst in photoshop in de juiste verhouding te zetten voordat je ze op de website gebruikt.
 
 
 
