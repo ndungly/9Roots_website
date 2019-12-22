@@ -2,7 +2,7 @@
 /*
 This first bit sets the email address that you want the form to be submitted to.
 */
-$webmaster_email = "ndungly@gmail.com";
+$webmaster_email = "martijn@martijncruyff.nl";
 
 /*
 This bit sets the URLs of the supporting pages.
