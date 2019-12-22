@@ -8,11 +8,6 @@
     margin-top: 190px;
   }
 
-  a {
-    font-weight: bold;
-    color: var(--9roots-orange);
-  }
-
   .img-container {
     width: 200px;
     height: 200px;

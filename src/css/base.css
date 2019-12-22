@@ -25,4 +25,17 @@ h6 {
 
 a {
   text-decoration: none;
+
+  &:not(.a-menu, .c-btn) {
+    font-weight: bold;
+    color: var(--9roots-orange);
+  }
+}
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  border: 0;
+  box-shadow: 0;
 }
